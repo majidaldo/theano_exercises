@@ -8,7 +8,7 @@ from theano import tensor as T
 def shrink_tensor(x, w):
     """
     x : A theano TensorType variable
-    w : A theano integer scalar
+    w : An integer
     Returns:
     y: A theano TensorType variable containing all but the borders
     of x, i.e., discard the first and last w elements along each
